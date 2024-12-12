@@ -13,5 +13,5 @@ document.getElementById("operation_result").onclick = function(){
     }else{
         c="Операцію не було обрано";
     }
-    document.getElementById("result").textContent = 'Відповідь: ${c}'
+    document.getElementById("result").textContent = `Відповідь: ${c}`
 }
